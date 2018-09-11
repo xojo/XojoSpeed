@@ -2,6 +2,7 @@
 Begin iosView View1
    BackButtonTitle =   ""
    Compatibility   =   ""
+   LargeTitleMode  =   "2"
    Left            =   0
    NavigationBarVisible=   False
    TabIcon         =   ""
@@ -11,10 +12,10 @@ Begin iosView View1
    Begin iOSRectangle Rectangle1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   Rectangle1, 4, BottomLayoutGuide, 4, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Rectangle1, 1, <Parent>, 1, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Rectangle1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Rectangle1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, 
+      AutoLayout      =   Rectangle1, 4, BottomLayoutGuide, 4, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Rectangle1, 1, <Parent>, 1, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Rectangle1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Rectangle1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, , True
       BorderColor     =   &c00000000
       BorderWidth     =   2.0
       CornerHeight    =   0.0
@@ -30,10 +31,10 @@ Begin iosView View1
       Begin iOSButton AboutButton
          AccessibilityHint=   ""
          AccessibilityLabel=   ""
-         AutoLayout      =   AboutButton, 8, , 0, False, +1.00, 1, 1, 30, 
-         AutoLayout      =   AboutButton, 2, <Parent>, 2, False, +1.00, 1, 1, -*kStdGapCtlToViewH, 
-         AutoLayout      =   AboutButton, 3, TopLayoutGuide, 4, False, +1.00, 1, 1, 0, 
-         AutoLayout      =   AboutButton, 7, , 0, False, +1.00, 1, 1, 50, 
+         AutoLayout      =   AboutButton, 8, , 0, False, +1.00, 1, 1, 30, , True
+         AutoLayout      =   AboutButton, 2, <Parent>, 2, False, +1.00, 1, 1, -*kStdGapCtlToViewH, , True
+         AutoLayout      =   AboutButton, 3, TopLayoutGuide, 4, False, +1.00, 1, 1, 0, , True
+         AutoLayout      =   AboutButton, 7, , 0, False, +1.00, 1, 1, 50, , True
          Caption         =   "About"
          Enabled         =   True
          Height          =   30.0
@@ -53,10 +54,10 @@ Begin iosView View1
    Begin iOSLabel SpeedLabel
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   SpeedLabel, 8, , 0, False, +1.00, 1, 1, 243, 
-      AutoLayout      =   SpeedLabel, 1, <Parent>, 1, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   SpeedLabel, 2, <Parent>, 2, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   SpeedLabel, 3, TopLayoutGuide, 4, False, +1.00, 1, 1, *kStdControlGapV, 
+      AutoLayout      =   SpeedLabel, 8, , 0, False, +1.00, 1, 1, 243, , True
+      AutoLayout      =   SpeedLabel, 1, <Parent>, 1, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   SpeedLabel, 2, <Parent>, 2, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   SpeedLabel, 3, TopLayoutGuide, 4, False, +1.00, 1, 1, *kStdControlGapV, , True
       Enabled         =   True
       Height          =   243.0
       Left            =   0
@@ -86,10 +87,10 @@ Begin iosView View1
    Begin iOSSegmentedControl UnitsSelector
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   UnitsSelector, 4, BottomLayoutGuide, 3, False, +1.00, 1, 1, -*kStdControlGapV, 
-      AutoLayout      =   UnitsSelector, 8, , 0, True, +1.00, 1, 1, 29, 
-      AutoLayout      =   UnitsSelector, 1, <Parent>, 1, False, +1.00, 1, 1, *kStdGapCtlToViewH, 
-      AutoLayout      =   UnitsSelector, 2, <Parent>, 2, False, +1.00, 1, 1, -*kStdGapCtlToViewH, 
+      AutoLayout      =   UnitsSelector, 4, BottomLayoutGuide, 3, False, +1.00, 1, 1, -*kStdControlGapV, , True
+      AutoLayout      =   UnitsSelector, 8, , 0, True, +1.00, 1, 1, 29, , True
+      AutoLayout      =   UnitsSelector, 1, <Parent>, 1, False, +1.00, 1, 1, *kStdGapCtlToViewH, , True
+      AutoLayout      =   UnitsSelector, 2, <Parent>, 2, False, +1.00, 1, 1, -*kStdGapCtlToViewH, , True
       Caption         =   ""
       Enabled         =   True
       Height          =   29.0
@@ -105,10 +106,10 @@ Begin iosView View1
    Begin iOSLabel UnitLabel
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   UnitLabel, 8, , 0, False, +1.00, 1, 1, 86, 
-      AutoLayout      =   UnitLabel, 1, UnitsSelector, 1, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   UnitLabel, 2, UnitsSelector, 2, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   UnitLabel, 3, SpeedLabel, 4, False, +1.00, 1, 1, 0, 
+      AutoLayout      =   UnitLabel, 8, , 0, False, +1.00, 1, 1, 86, , True
+      AutoLayout      =   UnitLabel, 1, UnitsSelector, 1, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   UnitLabel, 2, UnitsSelector, 2, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   UnitLabel, 3, SpeedLabel, 4, False, +1.00, 1, 1, 0, , True
       Enabled         =   True
       Height          =   86.0
       Left            =   20
@@ -179,6 +180,19 @@ End
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
+	#tag ViewProperty
+		Name="LargeTitleMode"
+		Visible=true
+		Group="Behavior"
+		InitialValue="2"
+		Type="LargeTitleDisplayModes"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Automatic"
+			"1 - Always"
+			"2 - Never"
+		#tag EndEnumValues
+	#tag EndViewProperty
 	#tag ViewProperty
 		Name="BackButtonTitle"
 		Group="Behavior"
