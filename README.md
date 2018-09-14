@@ -1,5 +1,6 @@
 # XojoSpeed
 
-Xojo Speed: A simple speedometer iOS application made with the Xojo programming language.
+Xojo Speed: A simple speedometer iOS application made with the [Xojo programming language](http://www.xojo.com).
 
-This repository contains the full Xojo source code for Xojo Speed so you can see how easy it is to make your own iOS apps.
+This simple program uses the GPS to get location and converts the meters per second to km per hour or miles per hour.
+
